@@ -49,7 +49,7 @@ apply_tornado_patch()
 
 st.title("Advanced Header Patch Test")
 st.write("이제 /_stcore/stream 등 내부 경로를 포함한 모든 응답에서 Server 헤더가 사라집니다.")
-=======
+
 # 2. 덮어쓸 함수 정의
 def patched_set_default_headers(self):
     # 원래 기능 수행 (CORS 설정 등)
