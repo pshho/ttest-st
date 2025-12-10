@@ -66,4 +66,3 @@ tornado.web.RequestHandler.set_default_headers = patched_set_default_headers
 
 st.title("Server Header Patch Test")
 st.write("Tornado의 Server 헤더가 변경되었는지 개발자 도구(F12)로 확인해보세요.")
->>>>>>> 7c90ba8774f162f2216c045d4e82f4bd246bbf0a
